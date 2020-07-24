@@ -1,5 +1,3 @@
-
-
 Dado('que estou com a aplicacao') do
   visit 'http://www.advantageonlineshopping.com/'
   expect(page).to have_current_path('http://www.advantageonlineshopping.com/', url: true)
@@ -19,9 +17,10 @@ Entao('clico no botao logar') do
 end
 
 Entao('valido na barra superior username') do
-   valida = find(:xpath, '//*[@id="menuUserLink"]/span')
-   expect(valida.text).to eql 'eduardotest'
-   sleep(15)
+  sleep(5) 
+  valida = find(:xpath, '//*[@id="menuUserLink"]/span')
+  expect(valida.text).to eql 'eduardotest'
+  sleep(15)
 end
 
 Dado('estou selecionando a categoria do produto') do

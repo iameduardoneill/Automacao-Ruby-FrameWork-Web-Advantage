@@ -89,6 +89,11 @@ GEM
     selenium-webdriver (3.142.7)
       childprocess (>= 0.5, < 4.0)
       rubyzip (>= 1.2.2)
+    site_prism (3.4.2)
+      addressable (~> 2.5)
+      capybara (~> 3.3)
+      site_prism-all_there (>= 0.3.1, < 1.0)
+    site_prism-all_there (0.3.2)
     sys-uname (1.2.1)
       ffi (>= 1.0.0)
     thor (1.0.1)
@@ -107,6 +112,7 @@ DEPENDENCIES
   cucumber
   rspec
   selenium-webdriver
+  site_prism
 
 BUNDLED WITH
    2.1.4
