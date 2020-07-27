@@ -5,4 +5,8 @@ class ManageProductPage
 
 
 
+    
+
+
+
 end
