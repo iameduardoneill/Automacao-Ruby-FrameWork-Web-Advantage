@@ -10,4 +10,7 @@ module PageObject
         loginPage ||= LoginPage.new
     end    
 
+    def manageProductPage
+        manageProductPage ||= ManageProductPage.new
+    end    
 end

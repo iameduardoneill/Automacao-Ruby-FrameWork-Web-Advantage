@@ -15,6 +15,14 @@ Cenario: Realizar login e adicionar carinho
   E valido na barra superior username
   Dado estou selecionando a categoria do produto
 
+  |categoria |TABLETS  |
+
+  E clicar no botao da primeira oferta de produto 
+  E seleciona a quantidade desejada
+ 
+  |quantidade| 7 |
+ 
+
 
 
 

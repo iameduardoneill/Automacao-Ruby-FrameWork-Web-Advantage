@@ -19,6 +19,15 @@ E('valido na barra superior username') do
 homePage.getLoggerInUser 
 end
 
-Dado('estou selecionando a categoria do produto') do
-sleep(10)    
+Dado('estou selecionando a categoria do produto') do |table|
+homePage.selecionarCategoria(table.rows_hash['categoria'].to_s)
 end
+
+E('clicar no botao da primeira oferta de produto') do
+manageProductPage.primeiraOferta   
+end
+  
+E('seleciona a quantidade desejada') do |table|
+sleep(10)     
+end
+
