@@ -1,5 +1,4 @@
 #language: pt
-
 Funcionalidade: Adicionar Produto
 Adicionar produto ao carrinho
 
@@ -21,9 +20,3 @@ Cenario: Realizar login e adicionar carinho
   E seleciona a quantidade desejada
  
   |quantidade| 7 |
- 
-
-
-
-
-

@@ -28,6 +28,6 @@ manageProductPage.primeiraOferta
 end
   
 E('seleciona a quantidade desejada') do |table|
-sleep(10)     
+manageProductPage.quantidade(table.rows_hash['quantidade'].to_s)
 end
 

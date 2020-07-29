@@ -13,4 +13,8 @@ module PageObject
     def manageProductPage
         manageProductPage ||= ManageProductPage.new
     end    
+
+    def createAccountPage
+        createAccountPage ||= CreateAccountPage.new
+    end
 end

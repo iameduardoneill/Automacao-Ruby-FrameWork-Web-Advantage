@@ -12,4 +12,12 @@ class LoginPage < SitePrism::Page
         btnLogar.click
     end  
 
+    def criarConta
+        sleep(3)
+        click_on('CREATE NEW ACCOUNT')
+    end
+
+
+
+
 end
