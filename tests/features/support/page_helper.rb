@@ -17,4 +17,5 @@ module PageObject
     def createAccountPage
         createAccountPage ||= CreateAccountPage.new
     end
+
 end
