@@ -1,6 +1,5 @@
 class HomePage < SitePrism::Page
 set_url '/#/'
-
 element :btnLogin, '#menuUser'
 
 element :catSpeakers, '#speakersLink'
@@ -49,16 +48,5 @@ def selecionarCategoria(cat)
     else
         puts 'nenhuma categoria selecionada!'
     end
-
-
 end
-
-
-
-
-
-
-
-
-
 end

@@ -17,7 +17,4 @@ class LoginPage < SitePrism::Page
         click_on('CREATE NEW ACCOUNT')
     end
 
-
-
-
 end

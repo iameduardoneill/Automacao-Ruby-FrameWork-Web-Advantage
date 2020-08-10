@@ -1,0 +1,10 @@
+default: --profile pretty -p homologation -p chrome 
+pretty: --format pretty
+
+homologation: AMBIENTE=homologation
+production: AMBIENTE=production
+
+chrome: BROWSER=chrome
+firefox: BROWSER=firefox
+ie: BROWSER=ie
+safari: BROWSER=safari
