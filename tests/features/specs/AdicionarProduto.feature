@@ -2,7 +2,7 @@
 Funcionalidade: Adicionar Produto
 
 Cenario: Adicionar produto 
-  Dado que estou com a aplicacao
+  Dado que estou com a aplicacao aberta
   Quando eu clico no link do login 
   Entao eu insiro UserName and Password
   

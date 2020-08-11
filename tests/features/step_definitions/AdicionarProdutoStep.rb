@@ -1,4 +1,4 @@
-Dado('que estou com a aplicacao') do
+Dado('que estou com a aplicacao aberta') do
 homePage.load
 expect(page).to have_current_path('http://www.advantageonlineshopping.com/#/', url: true)
 end

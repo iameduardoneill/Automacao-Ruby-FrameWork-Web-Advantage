@@ -2,7 +2,7 @@
 Funcionalidade: Cadastrar Usuario
   
   Cenario: Cadastrar um usuario
-  Dado que estou com a aplicacao 
+  Dado que estou com a aplicacao aberta
   Quando eu clico no link do login 
   E clico em CREATE NEW ACCOUNT
   E informo os dados account details
