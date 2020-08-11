@@ -1,4 +1,7 @@
 class CreateAccountPage < SitePrism::Page
+
+    element :checkBox, 'input[name="i_agree"]'
+
     def preencherAccountDetails(registryName, registryEmail, registryPassword, registryConfirmPassword)
         fill_in(name: 'usernameRegisterPage' , with: registryName)
         fill_in(name: 'emailRegisterPage', with: registryEmail)
@@ -20,6 +23,6 @@ class CreateAccountPage < SitePrism::Page
         fill_in(name: 'addressRegisterPage', with: txtAddress)
         fill_in(name: 'state_/_province_/_regionRegisterPage', with: txtRegion)
         fill_in(name: 'postal_codeRegisterPage', with: txtPostalCode)
-        find('input[name="i_agree"]').click
+        checkBox.click
     end    
 end

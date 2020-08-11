@@ -1,8 +1,7 @@
 #language: pt
 Funcionalidade: Adicionar Produto
-Adicionar produto ao carrinho
 
-Cenario: Realizar login e adicionar carinho
+Cenario: Adicionar produto 
   Dado que estou com a aplicacao
   Quando eu clico no link do login 
   Entao eu insiro UserName and Password
@@ -14,7 +13,7 @@ Cenario: Realizar login e adicionar carinho
   E valido na barra superior username
   Dado estou selecionando a categoria do produto
 
-  |categoria |TABLETS  |
+  |categoria |MICE  |
 
   E clicar no botao da primeira oferta de produto 
   E seleciona a quantidade desejada

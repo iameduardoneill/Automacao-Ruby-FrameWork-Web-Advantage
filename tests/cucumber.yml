@@ -1,4 +1,4 @@
-default: --profile pretty -p homologation -p chrome 
+default: --profile pretty -p homologation -p chrome -p html
 pretty: --format pretty
 
 homologation: AMBIENTE=homologation
@@ -8,3 +8,9 @@ chrome: BROWSER=chrome
 firefox: BROWSER=firefox
 ie: BROWSER=ie
 safari: BROWSER=safari
+
+chrome_headless: BROWSER=chrome_headless
+firefox_headless: BROWSER=firefox_headless
+
+html: --format html --out=reports/TestReport.html
+
