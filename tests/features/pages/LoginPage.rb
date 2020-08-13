@@ -7,7 +7,17 @@ class LoginPage < SitePrism::Page
         sleep(3)
         fill_in(name: 'password', with: pass )
         sleep(3)
-    end    
+    end 
+
+    def realizarLoginMassa(username , pass)
+        fill_in(name: 'username', with: username )
+        sleep(3)
+        fill_in(name: 'password', with: pass )
+        sleep(3)
+    end
+
+
+
 
     def clicarSignIn
         btnLogar.click

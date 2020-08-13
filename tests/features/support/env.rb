@@ -23,6 +23,9 @@ require_relative 'helper.rb'
 World(PageObject)
 World(Helper)
 
+DADOS = YAML.load(File.open(File.join(File.dirname(__FILE__) + "/massadedados/tb.yml")))
+
+
 AMBIENTE = ENV['AMBIENTE']
 CONFIG = YAML.load_file(File.dirname(__FILE__)+ "/environment/#{AMBIENTE}.yml")
 
@@ -58,4 +61,5 @@ Capybara.configure do |config|
    config.default_driver = :selenium
    config.app_host = CONFIG['url_padrao']
    config.default_max_wait_time = 5
+   Capybara.page.driver.browser.manage.window.maximize
 end

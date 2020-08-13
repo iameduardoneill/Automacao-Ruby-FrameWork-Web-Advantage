@@ -8,7 +8,8 @@ homePage.clickLogin
 end
 
 Entao('eu insiro UserName and Password') do |table|
-loginPage.realizarLogin(table.rows_hash['username'].to_s, table.rows_hash['password'].to_s)
+#loginPage.realizarLogin(table.rows_hash['username'].to_s, table.rows_hash['password'].to_s)
+loginPage.realizarLoginMassa(DADOS[:usuario][:username],DADOS[:usuario][:password])
 end
 
 E('clico no botao logar') do
