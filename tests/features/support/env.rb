@@ -23,7 +23,7 @@ require_relative 'helper.rb'
 World(PageObject)
 World(Helper)
 
-DADOS = YAML.load(File.open(File.join(File.dirname(__FILE__) + "/massadedados/tb.yml")))
+DADOS = YAML.load(File.open(File.join(File.dirname(__FILE__) + "/massadados/tb.yml")))
 
 
 AMBIENTE = ENV['AMBIENTE']
